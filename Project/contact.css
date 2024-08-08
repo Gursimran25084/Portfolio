@@ -1,0 +1,49 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    
+    
+}
+
+nav {
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:black;
+    color: beige;
+    width:100%;
+    padding-top: 30px;
+    
+   
+   
+    
+    
+}
+
+nav li a{
+    font-size: 20px;
+    margin:20px;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration: none;
+    color:beige;
+    
+   
+    
+}
+   
+
+nav a:hover {
+    background-color: white;
+    color: red;
+}
+
+.portfolio{
+    text-align:right;
+    font-size: 30px;
+    margin:5px;
+}
+
